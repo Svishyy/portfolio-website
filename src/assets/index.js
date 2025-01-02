@@ -35,6 +35,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cmpt_419 from "./419.png";
+import prison_escape from "./prison_escape.png";
+import ufc from "./ufc.png";
+import housing from "./housing.png";
 
 export {
   logo,
@@ -71,4 +75,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  cmpt_419,
+  prison_escape,
+  ufc,
+  housing,
 };

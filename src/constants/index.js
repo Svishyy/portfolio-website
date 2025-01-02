@@ -29,6 +29,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    cmpt_419,
+    prison_escape,
+    ufc,
+    housing,
   } from "../assets";
   
   export const navLinks = [
@@ -215,67 +219,88 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Detecting cringe, pain and disgust in facial expressions",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Created a model that recognizes and distinguishes between facial expressions of cringe, pain and disgust from a custom made data-set of youtube video reactions.",
       tags: [
         {
-          name: "react",
+          name: "OpenFace",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "sci-kit learn",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "seaborn",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: cmpt_419,
+      source_code_link: "https://github.com/Svishyy/Detecting-Cringe-vs-Pain-vs-Disgust",
     },
     {
-      name: "Job IT",
+      name: "Prison Escape 2D Game",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Java-based 2D game including fully implemented enemy-movement, player controls, map progression, reward trinkets and player health bar. Incorporated JUnit testing as well. Escape from the prison to get your freedom! Won Best Game in CMPT 276 (Introduction to Software Engineering).",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Maven",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "JUnit",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: prison_escape,
+      source_code_link: "https://github.com/Svishyy/Prison-Escape-Game",
     },
     {
-      name: "Trip Guide",
+      name: "UFC Dataset Comprehensive Analysis",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive analysis on a UFC fight statistics dataset that answers 10 most-asked questions such as best grappler/wrestler/striker and pound for pound champion. Also implemented a KNN based ML model to predict the winner for new fight matchups!",
       tags: [
         {
-          name: "nextjs",
+          name: "Seaborn",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "data-preprocessing",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "sci-kit learn",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ufc,
+      source_code_link: "https://github.com/xgill15x/UFC-Dataset-Analysis",
+    },
+    {
+      name: "Vancouver Housing Prices Predictor",
+      description:
+        "A Random Forest Regressor based approach in predicting housing prices in Vancouver obtained from a kaggle based dataset.",
+      tags: [
+        {
+          name: "Seaborn",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Kaggle",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sci-kit learn",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: housing,
+      source_code_link: "https://github.com/Svishyy/Housing-Prices-Predictor",
     },
   ];
   
